@@ -20,13 +20,15 @@
     .logo {
       font-size: 60px;
       font-weight: bold;
-      color: #4285f4;
       margin-bottom: 20px;
     }
 
-    .logo span:nth-child(2) { color: #ea4335; }
-    .logo span:nth-child(3) { color: #fbbc05; }
-    .logo span:nth-child(4) { color: #34a853; }
+    .logo span:nth-child(1) { color: #4285f4; }  /* G */
+    .logo span:nth-child(2) { color: #ea4335; }  /* o */
+    .logo span:nth-child(3) { color: #fbbc05; }  /* o */
+    .logo span:nth-child(4) { color: #4285f4; }  /* g */
+    .logo span:nth-child(5) { color: #34a853; }  /* l */
+    .logo span:nth-child(6) { color: #ea4335; }  /* e */
 
     .search-box {
       width: 90%;
@@ -66,7 +68,7 @@
 </head>
 <body>
   <div class="logo">
-    <span>M</span><span>y</span><span>S</span><span>earch</span>
+    <span>G</span><span>o</span><span>o</span><span>g</span><span>l</span><span>e</span>
   </div>
 
   <form action="search.html" method="GET" class="search-box">
@@ -74,8 +76,8 @@
   </form>
 
   <div class="buttons">
-    <button onclick="document.querySelector('form').submit()">Search</button>
-    <button onclick="alert('Feeling Lucky feature coming soon!')">I'm Feeling Lucky</button>
+    <button onclick="document.querySelector('form').submit()">Google Search</button>
+    <button onclick="alert('I’m Feeling Lucky feature coming soon!')">I'm Feeling Lucky</button>
   </div>
 </body>
 </html>
